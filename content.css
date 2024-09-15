@@ -1,0 +1,41 @@
+/* input para título da nota */
+.content-title {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+/* input para texto da nota */
+.content-text {
+    display: block;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/* botão de save */
+#content-save {
+    display: block;
+    width: 100%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/* nota */
+.new-note {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 2px 0;
+    padding: 0;
+    border: 1px solid black;
+}
+

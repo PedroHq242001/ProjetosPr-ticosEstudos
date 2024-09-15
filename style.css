@@ -1,0 +1,73 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+    margin: 0; /* Remove margens externas */
+    padding: 0; /* Remove qualquer preenchimento */
+}
+
+/* Input de novas categorias */
+.header-input {
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+}
+
+/* Classe para arredondar bordas dos elementos do header */
+.header-borders {
+    border-radius: 5px;
+}
+
+
+#header {
+    margin: 0;
+    padding: 11px;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    background-color: rgb(245, 242, 242);
+    box-shadow: 0 1px 5px 1px;
+}
+
+
+#app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 90%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* Tudo aqui embaixo está dentro de app */
+
+#titulos {
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    width: 15%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y:auto;
+}
+
+
+#notes {
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+#content {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.app-containers {
+    border: 1px solid rgb(99, 98, 98);
+}
